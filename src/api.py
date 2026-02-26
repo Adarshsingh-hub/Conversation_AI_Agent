@@ -3,8 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
 import uuid, logging
-from chatbot import CustomerSupportChatbot
-
+from src.chatbot import CustomerSupportChatbot
 app  = FastAPI(title = "Digimind Support API",version = "1.0")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 sessions: dict[str, CustomerSupportChatbot] = {}
