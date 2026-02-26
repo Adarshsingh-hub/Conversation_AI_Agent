@@ -3,7 +3,7 @@ from langchain_community.vectorstores import Chroma
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.prompts import(ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate)
-from config import config
+from src.config import config
 import logging
 
 logger = logging.getLogger(__name__)
