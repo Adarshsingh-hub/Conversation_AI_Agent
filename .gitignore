@@ -1,29 +1,7 @@
-# 🔐 Secrets
 .env
-.env.*
-*.env
-
-# 🐍 Python
+chroma_db/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# 📦 Virtual environment
 venv/
-env/
-.venv/
-
-# 🧪 Logs
-*.log
-
-# 💻 OS files
 .DS_Store
-Thumbs.db
-
-# 🧠 VS Code / IDE
-.vscode/
-.idea/
-
-# 🧾 Cache
-.cache/
+# data
